@@ -1,11 +1,13 @@
 # AC HUB — Releases oficiais
 
-Este repositório contém somente instaladores, assinaturas e o manifesto de atualização do AC HUB para Windows x64.
+Este repositório contém apenas instaladores, assinaturas e o manifesto de atualização do AC HUB para Windows x64.
 
-## Beta local
+## Beta online
 
-A versão 0.2.0-beta.3 corrige a falha geral de preparação de tráfego por caminhos vazios no executável, acrescenta detecção automática de instalações e provisionamento de ferramentas. Inclui Race Control, licença por chave e atualizações assinadas. O serviço de ativação ainda é local: o CL HUB Bot deve estar no mesmo computador, ouvindo em 127.0.0.1:3002. Não é uma versão pronta para vender ou ativar remotamente.
+A versão 0.2.0-beta.4 valida as licenças por HTTPS em https://ac-hub-cloud.vercel.app. Não precisa instalar o CL HUB Bot no computador do usuário. Chaves são de uso único, vinculadas ao computador, com planos de 7, 30, 90 dias ou Lifetime. O prazo começa na primeira ativação. É necessária conexão com a internet.
 
-O Hub detecta bibliotecas Steam e instalações existentes. AssettoServer e Content Manager ausentes podem ser baixados das fontes oficiais para uma pasta própria. Jogo, CSP, DLCs e mods são instalados separadamente. Nenhum mod ou credencial do bot acompanha o instalador.
+O painel de proprietário gerencia compradores, revogação e reset de HWID com preservação do vencimento. As credenciais administrativas não acompanham o aplicativo.
 
-As chaves duram 7, 30, 90 dias ou Lifetime, a partir da ativação. As atualizações são verificadas pelo aplicativo; a instalação exige encerrar a sessão.
+O Hub inclui Race Control, preparação de tráfego, detecção automática de instalações e provisionamento de ferramentas oficiais. Assetto Corsa, CSP, DLCs e mods são instalados separadamente. Servidores de jogo e sessões continuam locais.
+
+As atualizações são assinadas e verificadas pelo aplicativo.
