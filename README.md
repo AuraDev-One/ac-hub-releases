@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.2.0-beta.8
+## Beta 0.2.0-beta.9
 
 Conta em Configurações: plano, vencimento, confirmação do comprador pelo Discord e histórico com identificadores parciais dos computadores.
 
