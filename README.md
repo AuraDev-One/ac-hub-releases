@@ -2,25 +2,25 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.2.0-beta.15
+## Beta 0.3.0-beta.1
 
-Conta em Configurações: plano, vencimento, confirmação do comprador pelo Discord e histórico com identificadores parciais dos computadores.
+Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
-Para vincular, gere o código no Hub, use /achub-conta no servidor CL HUB e confirme a solicitação privada. O código expira em dez minutos. Depois, Entrar com Discord recupera o acesso no mesmo computador, sem reutilizar a key. Trocas de computador continuam exigindo reset pelo suporte. O CL HUB Bot precisa estar online para a confirmação no Discord.
+Assetto Corsa e as DLCs necessárias devem estar disponíveis na conta do jogador. Mods continuam sujeitos às licenças e autorizações dos autores. Ferramentas essenciais e fontes autorizadas podem ser preparadas pelo Hub; nenhum pack de terceiros é incluído sem autorização. Sessões locais entre amigos podem exigir Radmin VPN ou conectividade equivalente.
 
-A renovação aceita uma nova key do mesmo comprador, mostra o vencimento antes de consumir a key e preserva os dias restantes. Licenças expiradas podem ser renovadas sem liberar as funções do jogo antes da renovação. Lifetime não exige renovação. Pagamento e entrega automática não fazem parte deste ciclo.
+A primeira ativação exige internet. Use somente os canais oficiais do AC HUB para obter licença e suporte. Não compartilhe chaves, códigos de vínculo ou arquivos de sessão.
 
-Biblioteca com filtros, favoritos e coleções; convite em modal com cópia individual; diagnóstico de sessão. Assetto Corsa, DLCs, CSP, mods e Radmin são instalados separadamente. Servidores e sessões continuam locais.
-
-A primeira ativação exige internet. A tolerância offline assinada dura até 24 horas da última validação, respeitando o vencimento. Revogações e resets podem levar até esse prazo se o cliente estiver offline.
+A hospedagem dedicada é um piloto e depende da configuração e validação do host Linux. Esta versão não oferece contratação automática de servidores.
 
 ## Novidades desta versão
 
-AC HUB 0.2.0-beta.15
+AC HUB 0.3.0-beta.1 — beta pública
 
-• Requisitos dos mods: diagnóstico de física, modelos KN5, layout, skins, linhas de IA e CSP identificáveis; a sessão é bloqueada quando faltam arquivos essenciais.
-• Condições comerciais versionadas no aplicativo e na página pública: termos, lifetime, reset, suporte, reembolso e privacidade. Identificação comercial e aprovação final ainda pendentes; vendas permanecem desativadas.
-• Planos integrados aos tickets do Discord, com preço/versão registrados e entrega de licença pela equipe após confirmação de pagamento. Emissão idempotente evita novas keys em uma repetição.
-• Preparação do bot para Ubuntu/CasaOS: Compose reforçado e pacote de migração criptografado com verificação e restauração em pasta isolada. O bot continua hospedado localmente.
+Diretório de servidores com favoritos, filtros, disponibilidade HTTP e latência UDP de descoberta.
+Preparação unificada de conteúdo e versões, seleção de carro/skin e entrada pelo Content Manager.
+Catálogo administrativo de fontes autorizadas, fila de ZIPs com SHA-256, cancelamento, retomada e backup ao substituir conteúdo.
+Amigos com aceitação, presença, convites internos, grupos com revisão de prontidão e sinal de entrada conjunta.
+Controle de privacidade social e dados separados dos diagnósticos opcionais.
+Piloto de hospedagem com liberações por prazo, fila de operações e agente Linux preparado; nenhuma cobrança ou instância é criada sem configuração do host.
 
-A verificação de arquivos não comprova aquisição de DLC nem compatibilidade universal de mods. Esta versão não executa pagamentos e não migra automaticamente o bot para outro servidor.
+Ferramentas oficiais continuam disponíveis. Nenhum pack de terceiros foi cadastrado sem autorização. A execução real do container, teste de carga e conectividade pública aguardam o host Linux. Uma VM Windows limpa e o fluxo visual completo com dois usuários continuam necessários antes de homologação comercial.
