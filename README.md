@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.3
+## Beta 0.3.0-beta.4
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,13 +14,11 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.3 — compatibilidade com nomes de pistas contendo espaços
+AC HUB 0.3.0-beta.4 — abertura de pistas com referências de cenário ausentes
 
-Corrigida a rejeição de identificadores locais como GTA V_ByGK.
-Validação compartilhada entre sessão, requisitos, comparação de conteúdo, preparação de tráfego e consulta de servidores.
-Mantidos os bloqueios de caminhos externos, caracteres de controle, sintaxe de configuração e nomes reservados do Windows.
-Testes de regressão para nomes com espaços e entradas maliciosas.
-Avisos em popups discretos e fixos, com resumo curto, detalhes expansíveis e fechamento manual para erros.
-Identificação do nome exato de modelos KN5 ausentes nos requisitos.
+Corrigido o bloqueio indevido de pistas como GTA V_ByGK que o jogo consegue carregar.
+Referências KN5 ausentes na pista passam a aviso quando há outros modelos referenciados presentes.
+Continuam bloqueados caminhos externos, ausência total de modelos, física essencial ausente e dependências de modelos dos carros.
+Nenhum arquivo do mod é removido, renomeado ou substituído.
 
-A correção não instala nem substitui arquivos do mod. Modelos KN5 ausentes continuam sendo apresentados como requisitos não atendidos. A presença da pista não garante suporte ao tráfego.
+Avisos não certificam colisões, aparência ou suporte a tráfego; esses comportamentos dependem do mod e do teste no jogo.
