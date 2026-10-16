@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.2
+## Beta 0.3.0-beta.3
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,14 +14,13 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.2 — visual mais fluido e navegação simplificada
+AC HUB 0.3.0-beta.3 — compatibilidade com nomes de pistas contendo espaços
 
-Sidebar reorganizada de 12 destinos para cinco áreas: Início, Jogar, Online, Biblioteca e Ajustes.
-Funções secundárias reunidas em navegação contextual, com acesso às páginas em um ou dois cliques.
-Tela Jogar com banner compacto para destacar carro, pista e controles da sessão.
-Tela inicial com chamada Jogar agora, resumo do preset atual e atalhos diretos para servidores, amigos e ferramentas.
-Novas camadas de vidro, transparências, bordas e profundidade visual.
-Animações curtas de entrada e interação, sem loops; preferência de movimento preservada e respeito ao movimento reduzido do sistema.
-Novos rótulos traduzidos para inglês, espanhol e russo.
+Corrigida a rejeição de identificadores locais como GTA V_ByGK.
+Validação compartilhada entre sessão, requisitos, comparação de conteúdo, preparação de tráfego e consulta de servidores.
+Mantidos os bloqueios de caminhos externos, caracteres de controle, sintaxe de configuração e nomes reservados do Windows.
+Testes de regressão para nomes com espaços e entradas maliciosas.
+Avisos em popups discretos e fixos, com resumo curto, detalhes expansíveis e fechamento manual para erros.
+Identificação do nome exato de modelos KN5 ausentes nos requisitos.
 
-A contagem de cliques refere-se à navegação até as funções; instalação, configuração e entrada no jogo dependem do conteúdo e da sessão. A hospedagem dedicada continua em piloto, aguardando validação em host Linux.
+A correção não instala nem substitui arquivos do mod. Modelos KN5 ausentes continuam sendo apresentados como requisitos não atendidos. A presença da pista não garante suporte ao tráfego.
