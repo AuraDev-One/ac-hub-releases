@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.2.0-beta.14
+## Beta 0.2.0-beta.15
 
 Conta em Configurações: plano, vencimento, confirmação do comprador pelo Discord e histórico com identificadores parciais dos computadores.
 
@@ -16,14 +16,11 @@ A primeira ativação exige internet. A tolerância offline assinada dura até 2
 
 ## Novidades desta versão
 
-AC HUB 0.2.0-beta.14
+AC HUB 0.2.0-beta.15
 
-• Alertas na central: falhas novas, várias instalações afetadas e aumento de taxa de erro com amostra mínima. Reconhecimento evita repetição.
-• Relatar problema no Hub: texto revisado, resumo técnico, autorização de envio e protocolo. Atendimento no painel administrativo.
-• Biblioteca: filtros por pack, autor e física presente/ausente, além de aplicar resultados ao grid com os limites da sessão.
-• Conteúdo entre amigos: gere um manifesto de IDs e hashes e compare no outro PC. Disponível em Diagnóstico e no convite, sem compartilhar arquivos dos mods.
-• Operação da beta: cadastro de participantes escolhidos, roteiro de testes e acompanhamento dos resultados.
-• Preparação comercial: preços definidos, condições em rascunho e reserva de até 25 novas emissões lifetime fundador. Vendas ainda não habilitadas.
-• Backup criptografado com ensaio de restauração isolado no pipeline de release.
+• Requisitos dos mods: diagnóstico de física, modelos KN5, layout, skins, linhas de IA e CSP identificáveis; a sessão é bloqueada quando faltam arquivos essenciais.
+• Condições comerciais versionadas no aplicativo e na página pública: termos, lifetime, reset, suporte, reembolso e privacidade. Identificação comercial e aprovação final ainda pendentes; vendas permanecem desativadas.
+• Planos integrados aos tickets do Discord, com preço/versão registrados e entrega de licença pela equipe após confirmação de pagamento. Emissão idempotente evita novas keys em uma repetição.
+• Preparação do bot para Ubuntu/CasaOS: Compose reforçado e pacote de migração criptografado com verificação e restauração em pasta isolada. O bot continua hospedado localmente.
 
-Diagnósticos automáticos continuam opcionais. Comparação de conteúdo não comprova DLC adquirida, skins, CSP ou compatibilidade universal. O ciclo não adiciona cobrança automática nem hospedagem dedicada.
+A verificação de arquivos não comprova aquisição de DLC nem compatibilidade universal de mods. Esta versão não executa pagamentos e não migra automaticamente o bot para outro servidor.
