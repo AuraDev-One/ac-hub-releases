@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.4
+## Beta 0.3.0-beta.6
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,11 +14,12 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.4 — abertura de pistas com referências de cenário ausentes
+Tráfego configurável para mapas grandes.
 
-Corrigido o bloqueio indevido de pistas como GTA V_ByGK que o jogo consegue carregar.
-Referências KN5 ausentes na pista passam a aviso quando há outros modelos referenciados presentes.
-Continuam bloqueados caminhos externos, ausência total de modelos, física essencial ausente e dependências de modelos dos carros.
-Nenhum arquivo do mod é removido, renomeado ou substituído.
+- Novos perfis Padrão, Cidade e Personalizado na página Tráfego.
+- Ajuste de raio, distância de surgimento, espaçamento, velocidade e circulação nos dois sentidos.
+- Perfil Cidade concentra os carros em 250 m; alterações valem na próxima sessão.
+- Intenso e Distribuir vagas usam a capacidade disponível da pista, sem teto fixo de 22, respeitando o limite de 64 veículos.
+- Correções do identificador de pistas com espaços, caminhos gerenciados no Windows e cálculo de raio das splines geradas.
 
-Avisos não certificam colisões, aparência ou suporte a tráfego; esses comportamentos dependem do mod e do teste no jogo.
+As configurações não garantem compatibilidade do tráfego de todos os mapas. A conversão GTA V/2REAL continua experimental; arquivos de terceiros não são incluídos neste release.
