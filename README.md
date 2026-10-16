@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.2.0-beta.13
+## Beta 0.2.0-beta.14
 
 Conta em Configurações: plano, vencimento, confirmação do comprador pelo Discord e histórico com identificadores parciais dos computadores.
 
@@ -16,11 +16,14 @@ A primeira ativação exige internet. A tolerância offline assinada dura até 2
 
 ## Novidades desta versão
 
-AC HUB 0.2.0-beta.13
+AC HUB 0.2.0-beta.14
 
-• Primeiros passos: checklist de jogo, Content Manager, ferramentas de hospedagem e CSP, com detecção e instalação das ferramentas oficiais.
-• Diagnóstico opcional da beta: escolha antes do acesso, revisão de amostra, pausa e solicitação de exclusão em Configurações. Eventos técnicos em lotes e fila offline limitada, sem logs brutos ou credenciais.
-• Central administrativa de diagnóstico na nuvem, com instalações, versões, erros recorrentes, filtros e linha do tempo.
-• Tráfego: diferenciação entre caminho encontrado, servidor testado e circulação observada pelo usuário. Registro local vinculado ao layout, metadados e hash da spline.
+• Alertas na central: falhas novas, várias instalações afetadas e aumento de taxa de erro com amostra mínima. Reconhecimento evita repetição.
+• Relatar problema no Hub: texto revisado, resumo técnico, autorização de envio e protocolo. Atendimento no painel administrativo.
+• Biblioteca: filtros por pack, autor e física presente/ausente, além de aplicar resultados ao grid com os limites da sessão.
+• Conteúdo entre amigos: gere um manifesto de IDs e hashes e compare no outro PC. Disponível em Diagnóstico e no convite, sem compartilhar arquivos dos mods.
+• Operação da beta: cadastro de participantes escolhidos, roteiro de testes e acompanhamento dos resultados.
+• Preparação comercial: preços definidos, condições em rascunho e reserva de até 25 novas emissões lifetime fundador. Vendas ainda não habilitadas.
+• Backup criptografado com ensaio de restauração isolado no pipeline de release.
 
-A coleta depende do consentimento e desta versão em execução; não mede todos os downloads. Preparar uma pista não certifica compatibilidade universal.
+Diagnósticos automáticos continuam opcionais. Comparação de conteúdo não comprova DLC adquirida, skins, CSP ou compatibilidade universal. O ciclo não adiciona cobrança automática nem hospedagem dedicada.
