@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.2.0-beta.12
+## Beta 0.2.0-beta.13
 
 Conta em Configurações: plano, vencimento, confirmação do comprador pelo Discord e histórico com identificadores parciais dos computadores.
 
@@ -16,10 +16,11 @@ A primeira ativação exige internet. A tolerância offline assinada dura até 2
 
 ## Novidades desta versão
 
-AC HUB 0.2.0-beta.12
+AC HUB 0.2.0-beta.13
 
-• Nova página Descobrir na sidebar: indicações de pistas, carros e comunidades, com busca, categorias, créditos e requisitos.
-• Atalho Abrir Content Manager na barra superior.
-• Verificação de integridade dos arquivos do motor antes da inicialização e ajustes de proteção do pacote de produção.
+• Primeiros passos: checklist de jogo, Content Manager, ferramentas de hospedagem e CSP, com detecção e instalação das ferramentas oficiais.
+• Diagnóstico opcional da beta: escolha antes do acesso, revisão de amostra, pausa e solicitação de exclusão em Configurações. Eventos técnicos em lotes e fila offline limitada, sem logs brutos ou credenciais.
+• Central administrativa de diagnóstico na nuvem, com instalações, versões, erros recorrentes, filtros e linha do tempo.
+• Tráfego: diferenciação entre caminho encontrado, servidor testado e circulação observada pelo usuário. Registro local vinculado ao layout, metadados e hash da spline.
 
-O catálogo traz links dos responsáveis; mods, DLCs e serviços de terceiros continuam separados. Esta versão não inclui hospedagem de servidores dedicada.
+A coleta depende do consentimento e desta versão em execução; não mede todos os downloads. Preparar uma pista não certifica compatibilidade universal.
