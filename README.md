@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.7
+## Beta 0.3.0-beta.8
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,13 +14,12 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.7 — salas e estilos de condução
+AC HUB 0.3.0-beta.8 — convites compactos e teste da própria sala
 
-- Termos lidos dentro do Hub, sem link para a origem do painel administrativo. O aceite continua obrigatório.
-- Sua sala na página inicial e em Online: nome, reserva de 1 a 24 horas e senha reutilizada ao parar e reiniciar o servidor dentro do prazo.
-- Convite para colar no próprio Hub, com conferência de conteúdo e seleção de carro antes de entrar. A entrada continua usando o Content Manager em segundo plano.
-- Normal, Drift e Pista com identidade visual, transições leves e presets independentes.
-- Ajustes de danos, consumo, desgaste, aderência, ABS, controle de tração e aquecedores. Corridas locais também recebem as assistências configuradas.
-- Arquivo de setup de pressão por pneu, criado sem modificar a física dos mods. Carregue-o manualmente nos boxes; os limites dependem do carro.
+- Corrigido o botão de conferir convite, que ficava desativado enquanto o anfitrião hospedava sua própria sala.
+- O próprio convite é reconhecido pelo endereço, porta e senha e direcionado à conexão local, com seleção dos carros dos jogadores. Entrar em outra sala continua exigindo parar a hospedagem atual.
+- Novos códigos ACHUB2 têm 47 caracteres. Mantêm endereço, porta, validade e a mesma senha de 128 bits, sem depender de um serviço de encurtamento.
+- Seleção de carro em modal: busca e lista lateral, preview grande à direita e seção Skins / pinturas com nomes e miniaturas quando disponíveis no mod. A preview acompanha a pintura selecionada quando existe imagem.
+- Códigos ACHUB1 antigos continuam aceitos nesta versão. Para compartilhar os novos códigos, ambos devem atualizar o Hub.
 
-A senha não muda no meio de uma sessão aberta. Depois que a reserva expirar, a próxima inicialização cria outra senha. Compartilhe o código apenas com pessoas de confiança: ele contém o acesso à sala. Jogadores continuam precisando de conectividade/VPN, jogo e conteúdo compatíveis.
+O convite contém acesso à sala. Compartilhe somente com quem vai jogar com você. A verificação de cópia não autentica a identidade do anfitrião.
