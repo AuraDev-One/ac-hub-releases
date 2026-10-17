@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.10
+## Beta 0.3.0-beta.11
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,4 +14,4 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-Configurações com sliders e valores exatos, painéis escuros e mostradores de pressão por pneu. Nova página Online → Perfil com apelido, foto e código de amigo. Pedidos de amizade aparecem em popup em qualquer página do Hub, com aceitar, recusar e ver depois. Fotos são reduzidas antes do envio e os dados do perfil acompanham os pedidos de amizade. Traduções em inglês, espanhol e russo.
+Seleção de grid por clique: adicionar/remover, destaque visual e nome do carro em primeiro plano; corrigido o popup extra ao concluir. Catálogo visual de pistas e layouts com imagens e busca no lugar do dropdown Destino. Opções básicas centralizadas em Carro e pista; Regras da sessão concentra vento, temperatura do asfalto, evolução da aderência, limites, largada e assistências locais. Perfis de condições ideais e realistas predefinidas (sem clima ao vivo). Force Feedback local com leitura, salvamento explícito e restauração de controls.ini, preservando os comandos. Planos removidos dos Ajustes, mantendo divulgação pelo Discord.
