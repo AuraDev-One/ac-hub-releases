@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.13
+## Beta 0.3.0-beta.14
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,13 +14,14 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.13
+AC HUB 0.3.0-beta.14
 
-• Importação local: arraste ZIP, RAR ou pasta para o Hub, ou use Importar mods na Biblioteca e em Preparar jogo. Revise os carros/pistas identificados e confirme a instalação nas pastas padrão do Assetto Corsa.
-• Substituição somente com autorização, backup e opção de desfazer a última instalação. Recuperação de operações interrompidas e bloqueio de caminhos inseguros, links e executáveis nos pacotes de mods.
-• Compatibilidade de pistas: reconhecimento geral de superfícies no layout, nos dados compartilhados e em data.acd padrão. As cópias de compatibilidade ficam na área de trabalho do Hub; os dados originais são preservados.
-• Parâmetros de horário e localização para pistas desconhecidas, sem depender de uma correção em código para cada mod. Quando faltam coordenadas válidas, o diagnóstico informa a possibilidade de localização neutra/UTC, que pode alterar iluminação e horário solar.
-• Inicialização: aguarda estabilização do servidor e apresenta popup quando ele encerra, com atalho para o log. Outros erros de conteúdo oferecem atalhos para diagnóstico, preparação do jogo ou tráfego.
-• Limite experimental por sessão de até 64 veículos, com confirmação de risco e inspeção de referências AC_PIT. O ajuste não cria posições físicas nem modifica o KN5 ou os metadados do autor. Carros sobrepostos, colisões, problemas de IA e encerramentos podem ocorrer acima da capacidade original.
+• Gravação assistida de tráfego: acumula até 24 faixas por layout, no sentido percorrido, preservando os trajetos originais e o histórico ao remover a última faixa.
+• Validação geométrica em segundo plano: apoio e altura no asfalto, largura e comprimento da frota informada, obstáculos estáticos legíveis, desníveis e raio mínimo de curva. Trechos problemáticos bloqueiam a geração da candidata.
+• Conexões de faixa verificadas por proximidade, altura, direção, espaço e continuidade. Ligações ambíguas, retornos improvisados e saltos entre níveis não são criados automaticamente.
+• Identificação de candidatos a spawn ao longo da rota. São uma evidência diagnóstica; a seleção efetiva continua sendo feita pelo servidor. Não cria boxes físicos.
+• Painel por faixa com ocorrências, prévia com marcadores, ajuste vertical da spline e dimensões configuráveis. Física de veículos, colisores ausentes, extensões e circulação real permanecem sujeitos a teste no jogo.
+• Modelos da geometria identificados por hash antes da aplicação; alterações detectáveis nos modelos invalidam o uso da spline gerenciada até nova validação.
+• Entrar na pista agora abre o mesmo modal de seleção de carro e skin usado em Escolher carro e entrar.
 
-A análise não garante compatibilidade de todo mod com servidor/tráfego e não substitui arquivos ausentes ou protegidos por física inventada. A importação e a análise local dispensam o Content Manager; a entrada no jogo ainda utiliza o Content Manager. RAR requer o leitor disponível nas versões compatíveis do Windows; ZIP e pasta são alternativas.
+Esta versão foi testada com geometria sintética e leitura dos arquivos reais da Transfăgărășan, mas ainda precisa de um trajeto humano gravado e observação de tráfego no jogo. A gravação assistida permanece experimental; não é uma garantia de reparo universal de mods.
