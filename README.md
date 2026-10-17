@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.8
+## Beta 0.3.0-beta.9
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,12 +14,10 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.8 — convites compactos e teste da própria sala
+AC HUB 0.3.0-beta.9 — preparação sem falso erro durante a sessão
 
-- Corrigido o botão de conferir convite, que ficava desativado enquanto o anfitrião hospedava sua própria sala.
-- O próprio convite é reconhecido pelo endereço, porta e senha e direcionado à conexão local, com seleção dos carros dos jogadores. Entrar em outra sala continua exigindo parar a hospedagem atual.
-- Novos códigos ACHUB2 têm 47 caracteres. Mantêm endereço, porta, validade e a mesma senha de 128 bits, sem depender de um serviço de encurtamento.
-- Seleção de carro em modal: busca e lista lateral, preview grande à direita e seção Skins / pinturas com nomes e miniaturas quando disponíveis no mod. A preview acompanha a pintura selecionada quando existe imagem.
-- Códigos ACHUB1 antigos continuam aceitos nesta versão. Para compartilhar os novos códigos, ambos devem atualizar o Hub.
+- A preparação automática reconhece jogo, Content Manager e CSP já instalados por leitura, sem iniciar uma nova instalação.
+- Com uma sessão ou tarefa de conteúdo em andamento, uma preparação necessária aguarda em vez de produzir um erro. A interface retoma a conferência após encerrar a sessão.
+- Falhas reais continuam informadas com o motivo recebido do motor, em vez de uma mensagem genérica que ocultava a causa.
 
-O convite contém acesso à sala. Compartilhe somente com quem vai jogar com você. A verificação de cópia não autentica a identidade do anfitrião.
+Fluxo de amigos verificado com duas contas temporárias na API pública: pedido, aceite, presença, convite privado, entrada em grupo e sinal de início conjunto. Os dados e licenças de teste foram removidos; nenhuma partida de cliente foi aberta pelo teste.
