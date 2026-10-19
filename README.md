@@ -2,7 +2,7 @@
 
 Instaladores e atualizações assinadas para Windows x64.
 
-## Beta 0.3.0-beta.14
+## Beta 0.3.0-beta.15
 
 Launcher para Assetto Corsa: biblioteca, sessões locais, favoritos e diretório de servidores, preparação de conteúdo, amigos e grupos. A entrada no jogo utiliza o Content Manager.
 
@@ -14,14 +14,14 @@ A hospedagem dedicada é um piloto e depende da configuração e validação do 
 
 ## Novidades desta versão
 
-AC HUB 0.3.0-beta.14
+Estabilização dos fluxos de jogo e importação.
 
-• Gravação assistida de tráfego: acumula até 24 faixas por layout, no sentido percorrido, preservando os trajetos originais e o histórico ao remover a última faixa.
-• Validação geométrica em segundo plano: apoio e altura no asfalto, largura e comprimento da frota informada, obstáculos estáticos legíveis, desníveis e raio mínimo de curva. Trechos problemáticos bloqueiam a geração da candidata.
-• Conexões de faixa verificadas por proximidade, altura, direção, espaço e continuidade. Ligações ambíguas, retornos improvisados e saltos entre níveis não são criados automaticamente.
-• Identificação de candidatos a spawn ao longo da rota. São uma evidência diagnóstica; a seleção efetiva continua sendo feita pelo servidor. Não cria boxes físicos.
-• Painel por faixa com ocorrências, prévia com marcadores, ajuste vertical da spline e dimensões configuráveis. Física de veículos, colisores ausentes, extensões e circulação real permanecem sujeitos a teste no jogo.
-• Modelos da geometria identificados por hash antes da aplicação; alterações detectáveis nos modelos invalidam o uso da spline gerenciada até nova validação.
-• Entrar na pista agora abre o mesmo modal de seleção de carro e skin usado em Escolher carro e entrar.
+• Importação de mods em 7z, além de ZIP, RAR e pastas, com resultado separado por pacote.
+• Pacotes de BeamNG identificados com aviso específico, sem descartar outros mods válidos.
+• Correção da transição entre análise pronta e instalação.
+• Sessão Individual explícita para treino e voltas rápidas, sem exigir servidor ou tráfego.
+• Drift individual usa o modo nativo do Assetto Corsa; corrida com IA mantém validação de linha nativa e boxes.
+• Avisos antigos de tráfego não reaparecem como falhas novas ao abrir o Hub.
+• Análise geométrica mais rápida, com progresso por modelo e faixa e gravações preservadas.
 
-Esta versão foi testada com geometria sintética e leitura dos arquivos reais da Transfăgărășan, mas ainda precisa de um trajeto humano gravado e observação de tráfego no jogo. A gravação assistida permanece experimental; não é uma garantia de reparo universal de mods.
+A validação geométrica pode bloquear trajetos estreitos ou incompatíveis. Não corrige física de mods nem garante tráfego em qualquer pista. Confira a circulação no jogo antes de compartilhar uma sessão.
